@@ -1,0 +1,22 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.title-area {
+    text-align: center;
+}
+
+.contain {
+    width: 100%;
+    height: auto;
+}
+
+.section {
+    width: 90%;
+    height: 100px;
+}
+
+.section-2 {
+    background-color: red;
+}
