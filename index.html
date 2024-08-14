@@ -4,11 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
     
     <title>HAZZ FIRST</title>
 </head>
 <body>
-    
+    <header>
+        <div class="title-area">
+            <h1>Hazz First HTML</h1>
+        </div>
+    </header>
+    <!-- 서양은 nav를 주로 header안에 넣지 않고 밑에 둠
+     포폴 만들 때 참고할 것! -->
+    <nav>
+        <ul class="main_nav">
+            <li>Menu-1</li>
+            <li>Menu-2</li>
+            <li>Menu-3</li>
+            <li>Menu-4</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="contain contain-1">
+            <p>This is the main content area. <br/>
+            and This is <span class="highlight">highlight</span></p>
+        </div>
+        <div class="contain contain-2">
+            <p>Black</p>
+            <p class="purple-text">Purple</p>
+            <p class="green-text">Green</p>
+            <p id="gold-text">Yellow</p>
+        </div>
+        <div class="contain contain-3">
+            <div id="block">BLOCK</div>
+            <div id="inline">inline</div>
+            <div id="inline-block">inline-BLOCK</div>
+        </div>
+        <div class="contain contain-4">
+            <input type="text" placeholder="Focus on">
+            <a href="https://github.com/jin2nim/hazz-first" target="_blank">click</a>
+        </div>
+    </main>
+    <footer></footer>
 </body>
 </html>
