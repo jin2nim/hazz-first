@@ -66,3 +66,7 @@ main div:first-child {
 .contain:nth-child(3) {
     background-color: #eee;
 }
+
+@media (prefers-color-scheme: dark) {
+background-color:red;
+}
